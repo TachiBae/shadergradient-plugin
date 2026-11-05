@@ -27,7 +27,15 @@ It isn't meant for plain static CSS gradients, which don't need WebGL. It also c
 
 ## Install
 
-You need [Claude Code](https://claude.com/claude-code), [Node.js](https://nodejs.org) and [Git](https://git-scm.com). Run these two commands in a terminal:
+You need [Claude Code](https://claude.com/claude-code), [Node.js](https://nodejs.org) and [Git](https://git-scm.com). Run this command in a terminal:
+
+```bash
+claude plugin install shadergradient --marketplace TachiBae/shadergradient-plugin
+```
+
+Then start a new Claude Code session so the plugin loads.
+
+If your version of Claude Code doesn't recognize `--marketplace`, update Claude Code or run these two commands instead:
 
 ```bash
 claude plugin marketplace add TachiBae/shadergradient-plugin
@@ -36,8 +44,6 @@ claude plugin marketplace add TachiBae/shadergradient-plugin
 ```bash
 claude plugin install shadergradient@shadergradient-plugin
 ```
-
-Then start a new Claude Code session so the plugin loads.
 
 ### Install without Git
 
@@ -53,7 +59,7 @@ claude plugin marketplace add "/path/to/shadergradient-plugin-main"
 claude plugin install shadergradient@shadergradient-plugin
 ```
 
-### Update or remove it
+### Update it
 
 ```bash
 claude plugin marketplace update shadergradient-plugin
@@ -63,8 +69,14 @@ claude plugin marketplace update shadergradient-plugin
 claude plugin update shadergradient@shadergradient-plugin
 ```
 
+### Remove it
+
 ```bash
 claude plugin uninstall shadergradient@shadergradient-plugin
+```
+
+```bash
+claude plugin marketplace remove shadergradient-plugin
 ```
 
 ## How to use it
