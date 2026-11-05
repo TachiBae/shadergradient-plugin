@@ -1,0 +1,6 @@
+{
+  "name": "shadergradient-plugin",
+  "description": "Marketplace for the unofficial ShaderGradient plugin for Claude Code.",
+  "owner": { "name": "Jorel Marquez", "url": "https://github.com/TachiBae" },
+  "plugins": [{ "name": "shadergradient", "source": "./" }]
+}

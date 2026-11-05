@@ -1,0 +1,10 @@
+{
+  "name": "shadergradient",
+  "version": "0.1.0",
+  "description": "Unofficial plugin: generate animated 3D ShaderGradient backgrounds as React components, standalone HTML pages or customizer links.",
+  "author": { "name": "Jorel Marquez", "url": "https://github.com/TachiBae" },
+  "homepage": "https://github.com/TachiBae/shadergradient-plugin",
+  "repository": "https://github.com/TachiBae/shadergradient-plugin",
+  "license": "MIT",
+  "keywords": ["gradient", "shader", "webgl", "react", "three.js", "background", "design"]
+}
