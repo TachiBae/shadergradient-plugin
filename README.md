@@ -187,4 +187,4 @@ npm i @shadergradient/react@2.4.20 @react-three/fiber@9 three@0.169.0
 
 This is an independent project, and it isn't made by or affiliated with the ShaderGradient authors or Anthropic. All credit for the gradient library goes to [ShaderGradient](https://github.com/ruucm/shadergradient) by ruucm. The preset values come from the `@shadergradient/react` npm package, which declares the MIT license.
 
-This plugin's own files are released under the [MIT license](LICENSE).
+This plugin's own files are released under the [MIT license](LICENSE). See [NOTICE](NOTICE) for the third-party material.
